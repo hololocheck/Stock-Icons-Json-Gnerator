@@ -1,7 +1,8 @@
-# Stock Icons JSON Generator (v1.0)
+# Stock Icons JSON Generator
 
-**Release Date: 2026/01/22**
-**🌐 Tool Page:** [https://hololocheck.github.io/Stock-Icons-Json-Generator/](https://hololocheck.github.io/Stock-Icons-Json-Generator/)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Platform](https://img.shields.io/badge/platform-Web-green.svg)
+![Version](https://img.shields.io/badge/version-1.0-orange.svg)
 
 [日本語](#japanese) | [English](#english)
 
@@ -10,24 +11,21 @@
 <a id="japanese"></a>
 ## 🇯🇵 日本語 (Japanese)
 
-Keycap Generator v66で導入された「📦 内蔵アイコン (Stock Icons)」機能を拡張するための補助ツールを公開しました。
-このツールを使用すると、誰でも簡単にアイコンライブラリ（`icons.json`）を編集・拡張し、自分好みのSVGアイコンセットをKeycap Generatorに追加できます。
+Keycap Generator v66で導入された「内蔵アイコン (Stock Icons)」機能を拡張するための補助ツールです。SVGファイルをドラッグ＆ドロップするだけで、アイコンライブラリ定義ファイル（`icons.json`）を自動生成できます。
 
-### ⚠️ 注意点 (Important Notes)
-* **オンライン版を利用の方へ:** Web版の Keycap Generator をそのまま利用している場合、**このツールは不要です。** オンライン版には標準のアイコンセットが既に組み込まれています。
-* **ローカル版のカスタム用:** このツールは、Keycap GeneratorのHTMLファイルをダウンロードして**ローカル環境（オフライン）**で実行し、独自のSVGアイコンを追加・カスタマイズしたいユーザー向けです。
+### 🌐 関連リンク
+- **[ツールページ](https://hololocheck.github.io/Stock-Icons-Json-Generator/)**: **インストール不要。** ブラウザから最新版を直接利用できます。
+- **[Keycap Generator 本体](https://hololocheck.github.io/Keycap_Generator/)**: 親ツールはこちら。
 
-### 🎯 開発の背景
-Keycap Generator v66では、よく使うアイコン（矢印、メディアキーなど）をプリセットとして選択できる「内蔵アイコン機能」が搭載されました。
-この機能は、拡張性を高めるためにSVGファイルと識別用JSONファイル（`icons.json`）で構成されていますが、手動でJSONを編集するのは手間がかかり、記述ミスの原因にもなります。
-
-**Stock Icons JSON Generator** は、SVGファイルをドラッグ＆ドロップするだけで、このJSONファイルを自動生成・更新できる専用ユーティリティです。
+### ⚠️ 注意点
+このツールは、Keycap GeneratorのHTMLファイルをダウンロードして**ローカル環境（オフライン）**で実行し、独自のSVGアイコンを追加・カスタマイズしたいユーザー向けです。
+- **オンライン版を利用の方へ**: Web版の Keycap Generator をそのまま利用している場合、**このツールは不要です。**
 
 ### ✨ 主な機能
-1.  **📂 ドラッグ＆ドロップで簡単追加:** SVGファイルを画面にドロップするだけでリストに追加され、「ID」「英語名」「日本語名」をファイル名から自動推測します。
-2.  **🧠 スマートなカテゴリ自動判別:** ファイル名に含まれるキーワード（例: `arrow`, `play`）を解析し、適切なカテゴリ（Arrows, Mediaなど）を自動で割り当てます。
-3.  **🔄 既存データの継承:** 既存の `icons.json` を読み込ませることで、現在のデータを保持したまま新しいアイコンだけを追加できます。
-4.  **✏️ メタデータ編集:** 自動入力された名前やカテゴリをGUI上で簡単に修正できます。
+- **ドラッグ＆ドロップで簡単追加**: SVGファイルを画面にドロップするだけでリストに追加され、「ID」「英語名」「日本語名」をファイル名から自動推測します。
+- **スマートなカテゴリ自動判別**: ファイル名に含まれるキーワード（例: `arrow`, `play`）を解析し、適切なカテゴリ（Arrows, Mediaなど）を自動で割り当てます。
+- **既存データの継承 (Update)**: 既存の `icons.json` を読み込ませることで、現在のデータを保持したまま新しいアイコンだけを追加できます。
+- **メタデータ編集**: 自動入力された名前やカテゴリをGUI上で簡単に修正できます。
 
 ### 📖 使い方
 1.  **起動:** [ツールページ](https://hololocheck.github.io/Stock-Icons-Json-Generator/) をブラウザで開きます。
@@ -41,24 +39,21 @@ Keycap Generator v66では、よく使うアイコン（矢印、メディアキ
 <a id="english"></a>
 ## 🇺🇸 English
 
-We have released a helper tool to expand the "📦 Stock Icons" feature introduced in Keycap Generator v66.
-This tool allows anyone to easily edit and expand the icon library (`icons.json`) and add their own custom SVG icon sets to Keycap Generator.
+A helper tool designed to expand the "Stock Icons" feature introduced in Keycap Generator v66. It automatically generates the icon library definition file (`icons.json`) simply by dragging and dropping SVG files.
+
+### 🌐 Related Resources
+- **[Tool Page](https://hololocheck.github.io/Stock-Icons-Json-Generator/)**: **No installation required.** Access the latest version directly in your browser.
+- **[Keycap Generator Main Tool](https://hololocheck.github.io/Keycap_Generator/)**: The parent tool.
 
 ### ⚠️ Important Notes
-* **For Online Users:** You do **not** need this tool if you are simply using the online version of Keycap Generator. The online version already includes the standard icon set.
-* **For Local Customization:** This tool is specifically designed for users who download the HTML to run in a **local environment** and wish to manually customize or expand the icon library.
-
-### 🎯 Background
-Keycap Generator v66 introduced the "Stock Icons" feature, allowing users to select common icons (arrows, media keys, etc.) as presets.
-This system consists of SVG files and an identifier JSON file (`icons.json`) for extensibility. However, manually editing the JSON file is tedious and prone to errors.
-
-**Stock Icons JSON Generator** is a dedicated utility that automatically generates and updates this JSON file simply by dragging and dropping SVG files.
+This tool is specifically designed for users who download the HTML to run in a **local environment** and wish to manually customize or expand the icon library.
+- **For Online Users**: You do **not** need this tool if you are simply using the online version of Keycap Generator.
 
 ### ✨ Key Features
-1.  **📂 Easy Drag & Drop:** Simply drop SVG files onto the screen to add them. The tool automatically infers "ID", "English Name", and "Japanese Name" from the filename.
-2.  **🧠 Smart Category Detection:** Automatically assigns appropriate categories (Arrows, Media, etc.) by analyzing keywords in the filename (e.g., `arrow`, `play`).
-3.  **🔄 Update Existing Data:** Drop an existing `icons.json` first to keep your current icons while adding new ones.
-4.  **✏️ Metadata Editor:** Easily edit auto-filled names or categories via the GUI.
+- **Easy Drag & Drop**: Simply drop SVG files onto the screen to add them. The tool automatically infers "ID", "English Name", and "Japanese Name" from the filename.
+- **Smart Category Detection**: Automatically assigns appropriate categories (Arrows, Media, etc.) by analyzing keywords in the filename (e.g., `arrow`, `play`).
+- **Update Existing Data**: Drop an existing `icons.json` first to keep your current icons while adding new ones.
+- **Metadata Editor**: Easily edit auto-filled names or categories via the GUI.
 
 ### 📖 How to Use
 1.  **Launch:** Open the [Tool Page](https://hololocheck.github.io/Stock-Icons-Json-Generator/) in your browser.
@@ -66,3 +61,8 @@ This system consists of SVG files and an identifier JSON file (`icons.json`) for
 3.  **Add:** Drop the SVG files you want to add.
 4.  **Generate:** Click the "Generate & Download icons.json" button.
 5.  **Deploy:** Place the downloaded file into the `stock-icons/` folder of Keycap Generator.
+
+---
+
+### 📄 License / ライセンス
+MIT License.
