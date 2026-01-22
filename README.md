@@ -1,4 +1,4 @@
-#Stock Icons Json Generator (v1.0)
+# Stock Icons Json Generator (v1.0)
 
 **Release Date: 2026/01/22**
 
