@@ -1,6 +1,7 @@
-# Stock Icons Json Generator (v1.0)
+# Stock Icons JSON Generator (v1.0)
 
 **Release Date: 2026/01/22**
+**🌐 Tool Page:** [https://hololocheck.github.io/Stock-Icons-Json-Generator/](https://hololocheck.github.io/Stock-Icons-Json-Generator/)
 
 [日本語](#japanese) | [English](#english)
 
@@ -20,7 +21,7 @@ Keycap Generator v66で導入された「📦 内蔵アイコン (Stock Icons)�
 Keycap Generator v66では、よく使うアイコン（矢印、メディアキーなど）をプリセットとして選択できる「内蔵アイコン機能」が搭載されました。
 この機能は、拡張性を高めるためにSVGファイルと識別用JSONファイル（`icons.json`）で構成されていますが、手動でJSONを編集するのは手間がかかり、記述ミスの原因にもなります。
 
-**STOCK ICONS JSON GENERATOR** は、SVGファイルをドラッグ＆ドロップするだけで、このJSONファイルを自動生成・更新できる専用ユーティリティです。
+**Stock Icons JSON Generator** は、SVGファイルをドラッグ＆ドロップするだけで、このJSONファイルを自動生成・更新できる専用ユーティリティです。
 
 ### ✨ 主な機能
 1.  **📂 ドラッグ＆ドロップで簡単追加:** SVGファイルを画面にドロップするだけでリストに追加され、「ID」「英語名」「日本語名」をファイル名から自動推測します。
@@ -29,7 +30,7 @@ Keycap Generator v66では、よく使うアイコン（矢印、メディアキ
 4.  **✏️ メタデータ編集:** 自動入力された名前やカテゴリをGUI上で簡単に修正できます。
 
 ### 📖 使い方
-1.  **起動:** `STOCK ICONS JSON GENERATOR` (`index.html`) をブラウザで開きます。
+1.  **起動:** [ツールページ](https://hololocheck.github.io/Stock-Icons-Json-Generator/) をブラウザで開きます。
 2.  **読み込み (任意):** 更新する場合は、既存の `icons.json` をドロップします。
 3.  **追加:** 追加したいSVGファイルをドロップします。
 4.  **生成:** 「icons.json を生成・ダウンロード」ボタンを押します。
@@ -51,7 +52,7 @@ This tool allows anyone to easily edit and expand the icon library (`icons.json`
 Keycap Generator v66 introduced the "Stock Icons" feature, allowing users to select common icons (arrows, media keys, etc.) as presets.
 This system consists of SVG files and an identifier JSON file (`icons.json`) for extensibility. However, manually editing the JSON file is tedious and prone to errors.
 
-**STOCK ICONS JSON GENERATOR** is a dedicated utility that automatically generates and updates this JSON file simply by dragging and dropping SVG files.
+**Stock Icons JSON Generator** is a dedicated utility that automatically generates and updates this JSON file simply by dragging and dropping SVG files.
 
 ### ✨ Key Features
 1.  **📂 Easy Drag & Drop:** Simply drop SVG files onto the screen to add them. The tool automatically infers "ID", "English Name", and "Japanese Name" from the filename.
@@ -60,7 +61,7 @@ This system consists of SVG files and an identifier JSON file (`icons.json`) for
 4.  **✏️ Metadata Editor:** Easily edit auto-filled names or categories via the GUI.
 
 ### 📖 How to Use
-1.  **Launch:** Open `STOCK ICONS JSON GENERATOR` (`index.html`) in your browser.
+1.  **Launch:** Open the [Tool Page](https://hololocheck.github.io/Stock-Icons-Json-Generator/) in your browser.
 2.  **Load (Optional):** Drop your existing `icons.json` if you want to update it.
 3.  **Add:** Drop the SVG files you want to add.
 4.  **Generate:** Click the "Generate & Download icons.json" button.
