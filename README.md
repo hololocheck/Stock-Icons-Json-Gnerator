@@ -14,7 +14,7 @@
 Keycap Generator v66で導入された「📦 内蔵アイコン (Stock Icons)」機能を拡張するための補助ツールです。SVGファイルをドラッグ＆ドロップするだけで、アイコンライブラリ定義ファイル（`icons.json`）を自動生成できます。
 
 ### 🌐 関連リンク
-- **[ツールページ](https://hololocheck.github.io/Stock-Icons-Json-Generator/)**: ブラウザでこのツールを起動します。
+- **[ツールページ](https://hololocheck.github.io/Stock_Icons_Json_Generator/)**: ブラウザでこのツールを起動します。
 - **[Keycap Generator (GitHub)](https://github.com/hololocheck/Keycap_Generator)**: カスタム対象の本体リポジトリはこちら。
 
 ### ⚠️ 注意点
@@ -28,7 +28,7 @@ Keycap Generator v66で導入された「📦 内蔵アイコン (Stock Icons)�
 - **メタデータ編集**: 自動入力された名前やカテゴリをGUI上で簡単に修正できます。
 
 ### 📖 使い方
-1.  **起動:** [ツールページ](https://hololocheck.github.io/Stock-Icons-Json-Generator/) をブラウザで開きます。
+1.  **起動:** [ツールページ](https://hololocheck.github.io/Stock_Icons_Json_Generator/) をブラウザで開きます。
 2.  **読み込み (任意):** 更新する場合は、既存の `icons.json` をドロップします。
 3.  **追加:** 追加したいSVGファイルをドロップします。
 4.  **生成:** 「icons.json を生成・ダウンロード」ボタンを押します。
@@ -42,7 +42,7 @@ Keycap Generator v66で導入された「📦 内蔵アイコン (Stock Icons)�
 A helper tool designed to expand the "Stock Icons" feature introduced in Keycap Generator v66. It automatically generates the icon library definition file (`icons.json`) simply by dragging and dropping SVG files.
 
 ### 🌐 Related Resources
-- **[Tool Page](https://hololocheck.github.io/Stock-Icons-Json-Generator/)**: Launch this tool in your browser.
+- **[Tool Page](https://hololocheck.github.io/Stock_Icons_Json_Generator/)**: Launch this tool in your browser.
 - **[Keycap Generator (GitHub)](https://github.com/hololocheck/Keycap_Generator)**: The main repository for customization.
 
 ### ⚠️ Important Notes
@@ -56,7 +56,7 @@ This tool is specifically designed for users who download the HTML to run in a *
 - **Metadata Editor**: Easily edit auto-filled names or categories via the GUI.
 
 ### 📖 How to Use
-1.  **Launch:** Open the [Tool Page](https://hololocheck.github.io/Stock-Icons-Json-Generator/) in your browser.
+1.  **Launch:** Open the [Tool Page](https://hololocheck.github.io/Stock_Icons_Json_Generator/) in your browser.
 2.  **Load (Optional):** Drop your existing `icons.json` if you want to update it.
 3.  **Add:** Drop the SVG files you want to add.
 4.  **Generate:** Click the "Generate & Download icons.json" button.
